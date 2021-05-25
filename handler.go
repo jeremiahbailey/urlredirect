@@ -90,8 +90,6 @@ func parseYAML(data []byte) ([]pathURLYAML, error) {
 	return pathUrls, nil
 }
 
-//JSON Handler
-
 // JSONHandler will parse the provided JSON and then return
 // an http.HandlerFunc (which also implements http.Handler)
 // that will attempt to map any paths to their corresponding
